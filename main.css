@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-up{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-h{
+    margin-right: 450px;
+}
+.right-h{
+    display: flex;
+    gap: 50px;
+}
+.right-h span{
+    color:#8699a5;
+    font-size: 12px;
+    cursor: pointer;
+}
+.header-bottom{
+    background-color: red;
+    display: flex;
+    height: 144px;
+}
+.left-hb img{
+    margin-left: 410px;
+    margin-top: 52px;
+}
+.mid-hb input{
+    margin-left: 35px;
+    margin-top: 48px;
+    font-size: 15px;
+    width: 468px;
+    padding: 15px;
+    border-radius: 7px;
+}
+.mid-hb{
+    position: relative;
+    margin-right: 70px;
+}
+.mid-hb button{
+    position: absolute;
+    top: 48px;
+    left: 500px;
+    padding: 16px;
+    background-color: hsl(0, 2%, 22%);
+}
+.mid-hb span{
+    color: white;
+}
+.right-hb{
+   display: flex;
+   margin-left: 25px;
+}
+.wishes{
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px;
+    margin-top: 46px;
+    margin-right: 10px;
+    height: 55px;
+}
+.wishes a{
+      text-decoration: none;
+      color: black;
+}
+.wishes i{
+    font-size: 20px;
+}
+.profile{
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-top: 45px;
+    height: 55px;
+}
+.profile span{
+    color: white;
+}
+.basket{
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px;
+    margin-top: 46px;
+    margin-left: 10px;
+    height: 55px;
+}
+.basket a{
+    text-decoration: none;
+    color: black;
+}
+.basket i{
+    font-size: 20px;
+}
+.category{
+    display: flex;
+}
+.multiple-items{
+    margin-top: 75px;
+}
+.multiple-items img{
+    
+}
+.imgdv{
+    cursor: pointer;
+    border: 1px solid #8699a5;
+}
+.slick-next{
+    background-color: black;
+}
+.slick-next:hover{
+    background-color: black;
+}
+.slick-prev{
+    background-color: black;
+}
+.slick-prev:hover{
+    background-color: black;
+}
