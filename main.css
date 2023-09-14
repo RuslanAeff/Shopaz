@@ -121,12 +121,13 @@
 .slick-next{
     background-color: black;
 }
-.slick-next:hover{
+.slick-next::before {   
     background-color: black;
 }
 .slick-prev{
     background-color: black;
 }
-.slick-prev:hover{
+.slick-prev::before {   
     background-color: black;
 }
+
